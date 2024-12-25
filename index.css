@@ -6,20 +6,46 @@
 .d-flex{
     display: flex;
     flex-wrap:wrap ;
-    justify-content: space-between;
-}
-.img{
-    border: 1px solid red;;
+    /* justify-content: space-between; */
 }
 .p-20{
     padding: 20px;
 }
-.img img{
-    border: 1px solid red;
+.img{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    border-right: 1px solid rgba(0, 0, 0, 0.0625);
 }
 .ad{
-    align-items: center;
-    font-size: 20px;
-    letter-spacing: 0.5px;
+   text-align: center;
+    font-size: 17.5px;
+     letter-spacing: 0.5px;
+     font-weight: 500;
+    color: #313435;
     font-family: Roboto, -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+.icons{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    height: 67px;
+}
+.fa-bars{
+    padding: 0px 15px;
+    color: #72777a;
+}
+.fa-magnifying-glass{
+    padding: 0px 15px;
+    color: #72777a;
+}
+.fa-bell{
+    color: #72777a;
+   padding-left: 1100px;
+}
+.fa-envelope{
+    color: #72777a;
+    padding: 0px 15px;
+}
+.ims{
+   border: 1px solid red;
+}
+.ims img{
+  
 }
