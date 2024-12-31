@@ -22,12 +22,14 @@
 
 <body>
 
-    <div class="main">
+    <div class="main" >
 
 
 <!--  sidebar content -->
 
-
+        <div class="cintainer-fluid">
+            
+        </div>
         <div class="sidebar">
             <div class="box2 w-1">
                 <div class="boxs d-flex align-center">
@@ -104,7 +106,7 @@
             <div class="navbar">
                 <div class="big">
                     <div class="box d-flex justify-center">
-                        <a href=""><i class="fa-solid fa-bars"></i></a>
+                       <a href="" class="btn"><i class="fa-solid fa-bars"></i></a>
                         <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
                     </div>
                 </div>
@@ -122,27 +124,70 @@
             </div>
  <!-- Navbar content end -->
 
-            <div class="container2.5">
-                <div class="d-flex">
-                    <div class="w-4">
+            <div class="container2">
+                <div class="d-flex space-between">
+                    <div class="w-5">
                         <div class="boxes p-20">
-
+                            <div class="total1">
+                                Total Visit
+                                <div class="icon1 d-flex space-between">
+                                    <i class="fa-solid fa-signal bg1"></i>
+                                    <div class="icons1 p-5 d-flex">
+                                        +10%
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-4">
+                    <div class="w-5">
                         <div class="boxes p-20">
-
+                            <div class="total1">
+                               Total Page Views
+                                <div class="icon1 d-flex space-between">
+                                    <i class="fa-solid fa-signal bg2"></i>
+                                    <div class="icons2 p-5 d-flex">
+                                        -7%
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-4">
+                    <div class="w-5">
                         <div class="boxes p-20">
-
+                            <div class="total1">
+                               Unique Visitors
+                                <div class="icon1 d-flex space-between">
+                                    <i class="fa-solid fa-signal bg3"></i>
+                                    <div class="icons3 p-5 d-flex">
+                                        ~12%
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="w-4">
+                    <div class="w-5">
                         <div class="boxes p-20">
-
+                            <div class="total1">
+                               Bounce Rate
+                                <div class="icon1 d-flex space-between">
+                                    <i class="fa-solid fa-signal bg4"></i>
+                                    <div class="icons4 p-5 d-flex">
+                                        33%
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="d-flex">
+                        <div class="w-2 d-flex">
+                            <div class="map">
+                                <iframe class="world"src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d55616642.59844898!2d41.36485372394088!3d46.254958331325035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1735622282155!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                       
                     </div>
                 </div>
             </div>
@@ -161,4 +206,10 @@
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<script>
+    $(".btn").click(function() {
+        $(".sidebar").toggleClass("hideside");
+        $(".text2").toggle();
+    })
+    </script>
 </html>

@@ -18,9 +18,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
     border-right: 1px solid rgba(0, 0, 0, 0.0625);
 }
-.container{
-   /* border: 1px solid red;; */
-}
+
 .container-fluid{
    margin-top: 20px;
     border: 1px solid red;
@@ -35,6 +33,9 @@
     border-right: 1px solid rgba(0, 0, 0, 0.0625);
     background-color: white;
 } */
+.container2{
+   background-color: #f9fafb; 
+}
 .navbar{
    width: 100%;
     /* border: 1px solid red;; */
@@ -92,9 +93,12 @@
     /* margin-top: 20px; */
 }
 .boxes{
-   border: 1px solid red;
+   border:  1px solid rgba(0, 0, 0, 0.0625);
     justify-content: space-around;
-    
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
 }
 .justify{
     justify-content: start;
@@ -126,6 +130,7 @@
 }
 .big{
     padding: 16.5px;
+    background-color: white;
 }
 .big1{
     padding: 16.5px;
@@ -150,6 +155,7 @@
 }
 .boxs{
     border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    background-color: white;
 }
 .fa-calendar-days{
     color:rgba(255, 102, 0, 0.767);
@@ -214,9 +220,6 @@
 .pb-10{
     padding-bottom: 10px;
 }
-.total{
-    border:1px solid red;
-}
  .container{
     /* border:1px solid red; */
     width:85%;
@@ -228,6 +231,7 @@
     width:15%;
     justify-content: space-between;
     height: 100vh;
+    background-color: white;
 }
 .align-center{
     align-items: center;
@@ -242,8 +246,79 @@
 }
 .text2{
     padding-top: 20px;
+    background-color: white;
 }
 
 .sidebar{
     width: 300px;
+    transition: all 1.0s;
+}
+.hideside{
+    width: 70px;
+}
+.sidetext{
+    width: 100%;
+}
+.sidebar:hover{
+    width: 300px;
+}
+.sidebar:hover .text2{
+    display: block !important;
+}
+.total1{
+    font-family: Roboto, -apple-system, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    color: #72777a;
+}
+.bg1{
+    color: #4caf50;
+}
+.bg2{
+    color: #9c27b0;
+}
+.bg3{
+    color: #2196f3;
+}
+.bg4{
+    color: #f44336;
+}
+.fa-signal {
+    font-size: 30px;
+}
+.icons1{
+    /* border: 1px solid red; */
+    background-color: #e8f5e9;
+    color: #4caf50;
+}
+.icons2{
+    /* border: 1px solid red; */
+    color: #f44336;
+    background-color: #ffebee;
+}
+.icons3{
+    color:#9c27b0;
+    background-color: #f3e5f5;
+}
+.icons4{
+    color: #2196f3;
+    background-color:  #e3f2fd;
+}
+.p-5{
+    padding: 5px;
+    border-radius: 50%;
+}
+.map{
+    border: 1px solid red; 
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.world{
+    width: 100%;
+}
+.from{
+    border: 1px solid rgba(0, 0, 0, 0.0625); 
+}
+.container{
+    width: 100%;
+    border: 1px solid red;
 }
