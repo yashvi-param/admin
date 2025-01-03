@@ -1,3 +1,48 @@
-.add{
-    
+
+.main{
+    height: 100vh;
+   
+}
+
+
+.sidebar{
+    width: 300px;
+    transition: all 0.5s;
+
+}
+
+.hideside{
+    width:70px
+}
+.fa-envelope{
+    color: #795548;
+}
+.fa-house{
+    color: #2196f3;
+}
+.ri-share-forward-box-line{
+    color: #2196f3;
+}
+.ri-calendar-line{
+    color: #ff5722; 
+    font-size: 20px;
+}
+.submain{
+    border-left: 1px solid rgba(0, 0, 0, 0.0625);
+}
+.colors{
+    font-size: 17.5px;
+    color: #313435;
+    font-weight: 500;
+}
+.row1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+}
+.text2 a{
+    text-decoration: none;
+    color: #72777a;
+    font-size: 15px;
+}
+.text1 a{
+    text-decoration: none;
 }
