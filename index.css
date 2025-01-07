@@ -1,16 +1,9 @@
-
-.main{
-    height: 100vh;
-   
-}
-
-
 .sidebar{
     width: 300px;
     transition: all 0.5s;
-
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.0625);
 }
-
 .hideside{
     width:70px
 }
@@ -27,13 +20,52 @@
     color: #ff5722; 
     font-size: 20px;
 }
-.submain{
-    border-left: 1px solid rgba(0, 0, 0, 0.0625);
+.ri-message-2-line{
+    color:  #673ab7;
+    font-size: 20px;
 }
-.colors{
-    font-size: 17.5px;
-    color: #313435;
-    font-weight: 500;
+.ri-pencil-line{
+    color:#03a9f4;
+    font-size: 20px;
+}
+.ri-palette-line{
+    color:#e91e63;
+    font-size: 20px;
+}
+.ri-list-check-2{
+    color:#ff9800;
+    font-size: 20px;
+}
+.ri-map-2-line{
+    color: #9c27b0;
+    font-size: 20px;
+}
+.ri-list-check{
+    color:#009688;
+    font-size: 20px;
+}
+.fa-file{
+    color: #f44336;
+    font-size: 20px;
+}
+.fa-bell{
+    font-size: 20px;
+    color: #72777a;
+}
+.search a{
+    text-decoration: none;
+    color: #72777a;
+    font-size: 20px; 
+}
+.img img{
+    width: 30px;
+    border-radius: 50%;
+}
+.subside{
+    
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
+    width: 100%;
+    height: 65px;
 }
 .row1{
     border-bottom: 1px solid rgba(0, 0, 0, 0.0625);
@@ -43,6 +75,15 @@
     color: #72777a;
     font-size: 15px;
 }
+.colors a{
+    font-size: 17.5px;
+    color: #313435;
+    font-weight: 500;
+}
 .text1 a{
     text-decoration: none;
+}
+.deo a{
+    text-decoration: none;
+    color: #313435;
 }
