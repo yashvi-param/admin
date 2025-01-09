@@ -87,3 +87,6 @@
     text-decoration: none;
     color: #313435;
 }
+.text:hover{
+    width: 100%;
+}
